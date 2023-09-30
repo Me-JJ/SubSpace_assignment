@@ -48,7 +48,7 @@ const memoized_Analysis = _.memoize(analytics, resolverTime);
 
 app.get("/", (req, res) => {
   res.send(
-    `<h1><a href="http://localhost:5050/api/blog_stats">GET BLOGS</a></h1>`
+    `<h1><a href="https://subspace-assignment.onrender.com/api/blog_stats">GET BLOGS</a></h1>`
   );
 });
 
